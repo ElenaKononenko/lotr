@@ -1,0 +1,18 @@
+header {
+  margin: 10px;
+  background-color: black;
+  color: goldenrod;
+  border-bottom: rgba(218, 165, 32, 0.363) 1px solid;
+}
+.header_list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.header_list_item {
+  padding: 10px;
+}
+.header_list_item:hover,
+.header_list_item:focus {
+  text-shadow: 4px 4px 6px goldenrod;
+}
